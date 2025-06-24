@@ -1,0 +1,78 @@
+body{
+    background-color: #fff;
+}
+.ODER {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    max-width: 458px;
+    background-color: #fff; /* Set a background color for the container */
+    border-radius: 8px; /* Add rounded corners for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    padding: 20px;
+}
+
+.food-details{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:  0 10px rgba(0, 0, 0, 0.1);
+}
+.order-form {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:  0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Add rounded corners for a modern look */
+}
+
+.food-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 16px); /* Adjusted width to account for padding */
+    padding: 10px; /* Increased padding for a more comfortable input */
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 4px; /* Add rounded corners for a modern look */
+}
+
+.confirm-order-btn {
+    background-color: #000;
+    color: white;
+    padding: 12px 24px; /* Increased padding for a larger button */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px; /* Add rounded corners for a modern look */
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.confirm-order-btn:hover {
+    background-color: #333; /* Darken the button on hover */
+}
