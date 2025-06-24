@@ -33,5 +33,3 @@ Designed with modern aesthetics and inspired by top restaurant platforms, this s
 
 ---
 
-## 📁 Folder Structure
-
